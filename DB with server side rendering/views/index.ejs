@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-50 to-blue-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-2xl rounded-3xl p-10 w-96">
+        <a href="/read" class="text-blue-600 hover:underline text-lg font-semibold">🔍 See All Users</a>
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Create User</h1>
+        <form action="/create" method="post" class="space-y-4">
+            <input type="text" name="name" class="w-full p-3 border border-gray-300 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="👤 Name">
+            <input type="text" name="email" class="w-full p-3 border border-gray-300 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="📧 Email">
+            <input type="text" name="image" class="w-full p-3 border border-gray-300 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="🌐 Image URL">
+            <input class="w-full p-3 bg-blue-500 text-white font-bold rounded-2xl shadow-lg hover:bg-blue-600 cursor-pointer transition transform hover:scale-105" type="submit" value="🚀 Create">
+        </form>
+    </div>
+</body>
+</html>

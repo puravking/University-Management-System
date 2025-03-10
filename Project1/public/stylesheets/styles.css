@@ -1,0 +1,44 @@
+*{
+    background-color: azure;
+}
+.design {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* align-items: center;
+    justify-content: center; */
+}
+textarea{
+    resize: none;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+font-size: 1.2rem;
+}
+.description{
+font-size: 1rem;
+}
+button{
+    background-color: rgb(71, 71, 211);
+}
+.tasks {
+    display: flex;
+}
+.task1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    border: 2px solid #333; /* Box border */
+    padding: 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    width: 300px; /* Box width */
+    margin: 50px auto; /* Center box on the page */
+    background-color: #f9f9f9; /* Optional: Background color */
+}
+
+/* .task1 div {
+    margin: 5px 0; 
+}  */
+

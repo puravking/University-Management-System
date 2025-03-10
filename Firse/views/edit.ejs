@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/">Back to Home</a>
+    <form action="/edit" method="post">
+        <input type="text" placeholder="Previous Name" class="text-zinc-500"  value="<%= filename%>" name="prev">
+        <input type="text" placeholder="New Name" name="new">
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
